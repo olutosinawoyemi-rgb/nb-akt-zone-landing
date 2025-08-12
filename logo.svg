@@ -1,0 +1,17 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="NB AKT Zone logo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0072CE"/>
+      <stop offset="100%" stop-color="#0058a3"/>
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="rgba(0,0,0,0.25)"/>
+    </filter>
+  </defs>
+  <rect width="256" height="256" rx="40" fill="url(#g)"/>
+  <g filter="url(#shadow)">
+    <polygon points="128,36 148,100 216,100 160,140 180,204 128,164 76,204 96,140 40,100 108,100" fill="#FFD700"/>
+  </g>
+  <text x="50%" y="78%" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" fill="#ffffff" font-weight="800">NB</text>
+  <text x="50%" y="92%" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" fill="#E6F0FA" font-weight="700">AKT ZONE</text>
+</svg>
